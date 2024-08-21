@@ -10,10 +10,21 @@
 
   <!-- Font-awesome -->
   <script src="https://kit.fontawesome.com/44b771e9c2.js" crossorigin="anonymous"></script>
+
+  <!-- css -->
+   <style>
+      .junior-program{
+          background-image:linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(./Images/2.png) ;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+   </style>
   
 </head>
 <body>
    <header class="container mx-auto">
+    <!-- Navbar -->
     <div class="navbar bg-base-100">
       <div class="navbar-start">
         <div class="dropdown">
@@ -99,7 +110,91 @@
     </div>
     </div>
   </header>
-   <main>
+   <main class="container mx-auto">
+   <!-- Stat Section -->
+     <section class="mt-24">
+       <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col items-center justify-center">
+          <h3 class="text-3xl font-bold mb-3">Professional Hockey Club</h3>
+          <p class="opacity-80 w-1/2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus numquam labore reprehenderit perspiciatis. Minima mollitia a quia vero, vel blanditiis!</p>
+       </div>
+
+       <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="flex flex-col items-center justify-center py-6 space-y-3">
+          <div class="relative">
+            <div class="z-50 radial-progress text-red-500 " style="--value:87;" role="progressbar">87%</div>
+            <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+          </div>
+          <h6 class="text-xl font-semibold">Prayer Facility</h6>
+            <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+                  <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                    <div class="relative">
+                      <div class="z-50 radial-progress text-green-500 " style="--value:95;" role="progressbar">95%</div>
+                      <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                    </div>
+                    <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                      <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+
+              <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                <div class="relative">
+                  <div class="z-50 radial-progress text-yellow-500 " style="--value:90;" role="progressbar">90%</div>
+                  <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                </div>
+                <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="flex flex-col items-center justify-center py-6 space-y-3">
+                <div class="relative">
+                  <div class="z-50 radial-progress text-blue-500 " style="--value:80;" role="progressbar">80%</div>
+                  <div class="rotate-90 absolute top-0 left-0 radial-progress text-slate-300" style="--value:87;" role="progressbar"></div>
+                </div>
+                <h6 class="text-xl font-semibold">Prayer Facility</h6>
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+       </div>
+     </section>
+
+  <!-- Program section -->
+    <section class="mt-24">
+          <div class="border-y-[2px] border-dashed py-12 text-center flex flex-col items-center justify-center">
+            <h3 class="text-3xl font-bold mb-3">Program section</h3>
+            <p class="opacity-80 w-1/2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus numquam labore reprehenderit perspiciatis. Minima mollitia a quia vero, vel blanditiis!</p>
+        </div>
+
+           <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="rounded-lg junior-program w-full flex flex-col justify-end items-center text-white p-12">
+                  <div>
+                     <h5>Junior Program</h5>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maiores atque animi totam delectus dolores iste velit eveniet laborum consequuntur.</p>
+                     <button class="btn btn-error mt-4 text-white">
+                        Register Now!
+                     </button>
+                  </div>
+                </div>   
+                <div class="rounded-lg junior-program w-full flex flex-col justify-end items-center text-white p-12">
+                  <div>
+                     <h5>Junior Program</h5>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maiores atque animi totam delectus dolores iste velit eveniet laborum consequuntur.</p>
+                     <button class="btn btn-error mt-4 text-white">
+                        Register Now!
+                     </button>
+                  </div>
+                </div>
+                <div class="rounded-lg junior-program w-full flex flex-col justify-end items-center text-white p-12 lg:col-span-2">
+                  <div>
+                     <h5>Junior Program</h5>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maiores atque animi totam delectus dolores iste velit eveniet laborum consequuntur.</p>
+                     <button class="btn btn-error mt-4 text-white">
+                        Register Now!
+                     </button>
+                  </div>
+                </div>
+
+           </div>
+
+    </section>
 
    </main>
    <footer>
